@@ -1,46 +1,36 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Eugene Hantsel — Private Body Transformation</title>
-  <meta name="description" content="Evgenii Hantsel. Neuropsychologist, nutritionist, and movement specialist. A private 10-week body transformation programme for high-performance individuals. London · Dubai." />
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231C1510'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Georgia,serif' font-size='18' fill='%23B8914A'%3EE%3C/text%3E%3C/svg%3E" />
-
-  <!-- Google Fonts -->
+  <title>Eugene Hantsel — Private Body Transformation · London · Dubai</title>
+  <meta name="description" content="Evgenii Hantsel. Neuropsychologist, nutritionist, movement specialist. Private 10-week body transformation. London · Dubai." />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2309080A'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial Black' font-size='16' font-weight='900' fill='%23C4A46B'%3EE%3C/text%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
-
-  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/animations.css" />
 </head>
 <body>
 
-<!-- ============================================================
-     MOBILE OVERLAY MENU
-     ============================================================ -->
+<!-- MOBILE OVERLAY -->
 <nav class="nav-overlay" role="dialog" aria-label="Mobile navigation" style="display:none">
-  <button class="nav-overlay-close" aria-label="Close menu">&times;</button>
-  <a href="#philosophy">Philosophy</a>
+  <button class="nav-overlay-close" aria-label="Close">&times;</button>
+  <a href="#about">Philosophy</a>
   <a href="#method">Method</a>
-  <a href="#intelligence">AI Layer</a>
+  <a href="#intelligence">Health AI</a>
   <a href="#programme">Programme</a>
   <a href="#gate">Apply</a>
 </nav>
 
-<!-- ============================================================
-     NAVIGATION
-     ============================================================ -->
-<nav class="nav" role="navigation" aria-label="Main navigation">
+<!-- NAV -->
+<nav class="nav" id="nav">
   <a class="nav-logo" href="#">Eugene <span>Hantsel</span></a>
-  <ul class="nav-links" role="list">
-    <li><a href="#philosophy">Philosophy</a></li>
+  <ul class="nav-links">
+    <li><a href="#about">Philosophy</a></li>
     <li><a href="#method">Method</a></li>
-    <li><a href="#intelligence">AI Layer</a></li>
+    <li><a href="#intelligence">Health AI</a></li>
     <li><a href="#programme">Programme</a></li>
   </ul>
   <a class="nav-cta" href="#gate">Apply</a>
@@ -49,81 +39,83 @@
   </button>
 </nav>
 
-<!-- ============================================================
+<!-- ════════════════════════════════════════
      HERO
-     ============================================================ -->
-<section class="hero" id="hero" aria-label="Hero">
+     ════════════════════════════════════════ -->
+<section class="hero" id="hero">
   <div class="hero-bg">
     <img
-      src="https://static.tildacdn.com/tild3664-3432-4664-b966-393065386662/1f.png"
-      alt="Evgenii Hantsel — private body transformation coach"
-      loading="eager"
-      fetchpriority="high"
+      src="https://static.tildacdn.com/tild3662-3333-4432-a665-363436363830/2150704989.jpg"
+      alt="Eugene Hantsel — body transformation"
+      loading="eager" fetchpriority="high"
+      id="heroImg"
     />
   </div>
   <div class="hero-overlay"></div>
+  <div class="hero-marble"></div>
 
-  <div class="container">
+  <div class="wrap">
     <div class="hero-content">
-      <span class="label hero-enter" data-hero-delay="1">Private Body Transformation · London · Dubai</span>
-      <h1 class="heading-hero hero-enter" data-hero-delay="2">
-        The <em>Sculptor</em><br />of Your Form
+      <span class="eyebrow hero-enter" data-hero-delay="1">
+        Private Transformation · London · Dubai · Global
+      </span>
+      <h1 class="hero-h1 hero-enter" data-hero-delay="2">
+        Sculpt<br />Your<br />Form
+        <em>The Precision Method</em>
       </h1>
       <p class="hero-sub hero-enter" data-hero-delay="3">
         Neuropsychologist. Nutritionist. Movement Specialist.<br />
-        A private 10-week engagement for high-performance<br />individuals who are ready to change — permanently.
+        A private 10-week engagement that changes your body — and keeps it changed.
       </p>
       <div class="hero-actions hero-enter" data-hero-delay="4">
         <a href="#gate" class="btn-primary">Apply for a Place</a>
-        <a href="#method" class="btn-ghost">Discover the Method →</a>
+        <a href="#method" class="btn-outline">Discover the Method</a>
       </div>
     </div>
   </div>
 
-  <div class="hero-scroll-hint" aria-hidden="true">
+  <div class="hero-scroll" aria-hidden="true">
     <div class="hero-scroll-line"></div>
     <span>Scroll</span>
   </div>
 </section>
 
-<!-- ============================================================
-     PHILOSOPHY
-     ============================================================ -->
-<section class="philosophy section-pad" id="philosophy" aria-label="Philosophy">
-  <div class="container">
-    <div class="philosophy-inner">
+<!-- ════════════════════════════════════════
+     ABOUT / PHILOSOPHY
+     ════════════════════════════════════════ -->
+<section class="about sec marble-bg" id="about">
+  <div class="wrap">
+    <div class="about-inner">
 
-      <!-- Image -->
-      <div class="philosophy-image-wrap scale-in">
-        <div class="philosophy-image-frame">
+      <div class="about-img fade-in">
+        <div class="about-img-frame">
           <img
             src="https://static.tildacdn.com/tild3861-3061-4235-a430-356239613433/313.png"
-            alt="Evgenii Hantsel — body transformation specialist"
+            alt="Evgenii Hantsel"
             loading="lazy"
           />
         </div>
       </div>
 
-      <!-- Text -->
-      <div class="philosophy-text">
-        <p class="label fade-up">Philosophy</p>
-        <div class="gold-rule"></div>
-        <h2 class="heading-xl fade-up" data-delay="1">
-          Not a programme.<br />A <em>precision</em> intervention.
+      <div class="about-text">
+        <p class="eyebrow fade-up">Philosophy</p>
+        <div class="g-rule"></div>
+        <h2 class="h2 fade-up" data-delay="1">
+          Not a programme<br/><em>A precision<br/>intervention</em>
         </h2>
-        <blockquote class="philosophy-quote fade-up" data-delay="2">
-          "I take a person and cut away from the body and consciousness all that is unnecessary — just as Rodin carved from marble."
+        <blockquote class="about-quote fade-up" data-delay="2">
+          <p class="serif-quote">"I take a person and cut away from the body and consciousness all that is unnecessary — just as Rodin carved from marble."</p>
         </blockquote>
-        <p class="body-lg fade-up" data-delay="3">
-          Most fitness programmes treat the body as a mechanical problem. I work differently. The body you inhabit is the product of your neurology, your habits, your history, and your hormones — all acting simultaneously. Lasting transformation requires addressing all four.
+        <p class="body-text fade-up" data-delay="3">
+          Most fitness programmes treat the body as a mechanical problem. I work differently. The body you inhabit is the product of your neurology, your habits, your history, and your hormones — all acting simultaneously. Lasting transformation requires addressing all four, at once.
         </p>
-        <p class="body-lg fade-up" data-delay="4" style="margin-top:14px">
-          My work combines clinical neuropsychology, precision nutrition, and movement science into a single, cohesive engagement — designed entirely around you, your bloodwork, and your psychology.
+        <p class="body-text fade-up" data-delay="4" style="margin-top:12px">
+          I combine clinical neuropsychology, precision nutrition, and movement science into a single, cohesive engagement — designed entirely around you: your bloodwork, your psychology, your life.
         </p>
-        <div class="credentials" style="margin-top: 32px;">
-          <span class="credential">ISSA Certified · USA</span>
-          <span class="credential">Neuropsychologist</span>
-          <span class="credential">Sports Nutrition</span>
+        <div class="creds fade-up" data-delay="5">
+          <span class="cred">ISSA Certified · USA</span>
+          <span class="cred">Neuropsychologist</span>
+          <span class="cred">Sports Nutrition</span>
         </div>
       </div>
 
@@ -131,206 +123,201 @@
   </div>
 </section>
 
-<!-- ============================================================
-     VISUAL BREAK 1 — Elegant couple / lifestyle
-     ============================================================ -->
-<div class="visual-break" aria-hidden="true">
+<!-- ════════════════════════════════════════
+     VISUAL BREAK 1 — couple/lifestyle
+     ════════════════════════════════════════ -->
+<div class="vis-break">
   <img
-    src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=82"
-    alt="Luxury lifestyle"
+    src="https://static.tildacdn.com/tild3730-3961-4537-a661-363163613530/scale_1200.jpg"
+    alt="Dubai skyline · luxury lifestyle"
     loading="lazy"
   />
-  <div class="visual-break-overlay"></div>
-  <div class="visual-break-text">
+  <div class="vis-break-over"></div>
+  <div class="vis-break-txt">
     <blockquote>
-      "Your physical peak is not a memory.<br />
+      "Your physical peak is not a memory.<br/>
       It is a <span>decision.</span>"
     </blockquote>
-    <p class="visual-break-attr">— Evgenii Hantsel</p>
+    <p class="vis-break-attr">— Evgenii Hantsel</p>
   </div>
 </div>
 
-<!-- ============================================================
-     METHOD — 3 Disciplines
-     ============================================================ -->
-<section class="method section-pad" id="method" aria-label="The Method">
-  <div class="container">
+<!-- ════════════════════════════════════════
+     METHOD
+     ════════════════════════════════════════ -->
+<section class="method sec" id="method">
+  <div class="wrap">
 
-    <div class="method-header">
-      <p class="label fade-up">The Method</p>
-      <div class="gold-rule"></div>
-      <h2 class="heading-xl fade-up" data-delay="1">
-        Three disciplines.<br /><em>One outcome.</em>
+    <div class="method-hdr">
+      <p class="eyebrow fade-up">The Method</p>
+      <div class="g-rule"></div>
+      <h2 class="h2 fade-up" data-delay="1" style="color:var(--white)">
+        Three disciplines.<br/><span style="color:var(--gold)">One outcome.</span>
       </h2>
     </div>
 
     <div class="method-grid">
-
       <div class="method-card">
-        <div class="method-num">01</div>
-        <h3 class="method-title">Neuropsychology</h3>
-        <p class="body-md">The mind shapes the body before the body ever enters a gym. We identify and remove the psychological architecture that has kept you stuck — emotional eating patterns, self-sabotage loops, childhood imprints on your relationship with food and self-image.</p>
-        <ul class="method-list" aria-label="Neuropsychology details">
+        <div class="mnum">01</div>
+        <h3 class="mtitle">Neuropsychology</h3>
+        <p class="body-text">The mind shapes the body before the body ever enters a gym. We identify and remove the psychological architecture that has kept you stuck — emotional eating patterns, self-sabotage loops, deep behavioural imprints.</p>
+        <ul class="mlist">
           <li>Eating psychology deep-dive</li>
           <li>Emotional trigger mapping</li>
           <li>Behavioural habit reconstruction</li>
-          <li>Stress-cortisol relationship</li>
+          <li>Stress &amp; cortisol relationship</li>
         </ul>
       </div>
-
       <div class="method-card">
-        <div class="method-num">02</div>
-        <h3 class="method-title">Precision Nutrition</h3>
-        <p class="body-md">Not a generic meal plan. A nutritional architecture built on your blood panels, your genetics, and your daily rhythms — optimised for body composition, sustained energy, and long-term metabolic health.</p>
-        <ul class="method-list" aria-label="Nutrition details">
+        <div class="mnum">02</div>
+        <h3 class="mtitle">Precision Nutrition</h3>
+        <p class="body-text">Not a meal plan. A nutritional architecture built on your blood panels, your genetics, and your daily rhythms — optimised for body composition, energy, and long-term metabolic health.</p>
+        <ul class="mlist">
           <li>Full blood panel analysis</li>
           <li>Micronutrient deficiency mapping</li>
           <li>Nutrient timing by chronotype</li>
           <li>Supplement precision protocol</li>
         </ul>
       </div>
-
       <div class="method-card">
-        <div class="method-num">03</div>
-        <h3 class="method-title">Movement Science</h3>
-        <p class="body-md">Training designed around your physiology, schedule, and goals — not borrowed from someone else's programme. Every session has a purpose. Every week builds intelligently on the last.</p>
-        <ul class="method-list" aria-label="Movement details">
+        <div class="mnum">03</div>
+        <h3 class="mtitle">Movement Science</h3>
+        <p class="body-text">Training designed around your physiology, schedule, and goals — not borrowed from someone else's programme. Every session has a purpose. Every week builds intelligently on the last.</p>
+        <ul class="mlist">
           <li>Individual biomechanics assessment</li>
           <li>Progressive load architecture</li>
-          <li>Recovery and HRV optimisation</li>
-          <li>20 curated sessions per month</li>
+          <li>Recovery &amp; HRV optimisation</li>
+          <li>20 curated sessions / month</li>
         </ul>
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- ============================================================
+<!-- ════════════════════════════════════════
      VISUAL BREAK 2 — Porsche / precision
-     ============================================================ -->
-<div class="visual-break-2" aria-hidden="true">
+     ════════════════════════════════════════ -->
+<div class="vis-break-2">
   <img
     src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=82"
     alt="Precision engineering"
     loading="lazy"
   />
-  <div class="visual-break-2-overlay"></div>
-  <div class="visual-break-2-badge">
-    <p>Precision. Performance. Permanence.</p>
+  <div class="vis-break-2-over"></div>
+  <div class="vis-break-2-badge">
+    <p>Precision · Performance · Permanence</p>
   </div>
 </div>
 
-<!-- ============================================================
-     INTELLIGENCE LAYER — HealthCopilot
-     ============================================================ -->
-<section class="intelligence section-pad" id="intelligence" aria-label="AI Intelligence Layer">
-  <div class="container">
-    <div class="intelligence-inner">
+<!-- ════════════════════════════════════════
+     HEALTH COPILOT — Telegram Mockup
+     ════════════════════════════════════════ -->
+<section class="hc sec" id="intelligence">
+  <div class="wrap">
+    <div class="hc-inner">
 
       <!-- Left: copy -->
-      <div>
-        <p class="label fade-up">Powered by AI Intelligence</p>
-        <div class="gold-rule" style="background: var(--gold-light);"></div>
-        <h2 class="heading-xl fade-up" data-delay="1">
-          Your data,<br /><em>decoded daily.</em>
+      <div class="hc-text">
+        <p class="eyebrow fade-up">AI Health Intelligence</p>
+        <div class="g-rule" style="background:var(--gold);"></div>
+        <h2 class="h2 fade-up" data-delay="1" style="color:var(--white)">
+          Your data,<br/><em>decoded<br/>every morning</em>
         </h2>
-        <p class="body-lg fade-up" data-delay="2" style="color: var(--text-on-dark-mid); margin-top: 24px;">
-          Every client in my programme now receives access to <strong style="color: rgba(246,241,233,0.85); font-weight: 400;">Health Copilot</strong> — a proprietary AI system that aggregates your wearables, blood labs, genetics, and nutrition into a single daily intelligence briefing. Evidence-graded. PubMed-cited. Zero hallucinations.
+        <p class="body-text fade-up" data-delay="2" style="margin-top:24px">
+          Every client in my programme receives access to <strong style="color:var(--mid);font-weight:500">Health Copilot</strong> — a personal AI system that connects your wearables, blood labs, genetics, and food into one daily briefing. Delivered to Telegram at 9:00 AM. Evidence-graded. PubMed-cited. Zero hallucinations.
         </p>
-        <p class="body-lg fade-up" data-delay="3" style="color: var(--text-on-dark-mid); margin-top: 12px;">
-          The system gives me a precise clinical picture of your data before each session — so our work together is built on evidence, not assumption. You receive the analysis. I provide the expert interpretation.
+        <p class="body-text fade-up" data-delay="3" style="margin-top:12px">
+          I read the analysis before each session. You train smarter. Nothing is guesswork.
         </p>
 
-        <div class="intel-features">
-          <div class="intel-feature fade-up" data-delay="4">
-            <div class="intel-icon">⌬</div>
+        <div class="hc-feat">
+          <div class="hc-f fade-up" data-delay="4">
+            <div class="hc-icon">⌬</div>
             <div>
-              <p class="intel-feature-title">Multi-Agent Analysis</p>
-              <p class="intel-feature-desc">Four specialist AI agents — Clinical Geneticist, Pharmacogenomicist, Nutrigenomicist, Biostatistician — analyse your data independently, then synthesise a unified picture with no single point of failure.</p>
+              <p class="hc-ft">4 Specialist AI Agents</p>
+              <p class="hc-fd">Clinical Geneticist · Pharmacogenomicist · Nutrigenomicist · Biostatistician. Each analyses your data independently, then cross-validates.</p>
             </div>
           </div>
-          <div class="intel-feature fade-up" data-delay="5">
-            <div class="intel-icon">⊙</div>
+          <div class="hc-f fade-up" data-delay="5">
+            <div class="hc-icon">⊙</div>
             <div>
-              <p class="intel-feature-title">Evidence-Graded Insights</p>
-              <p class="intel-feature-desc">Every recommendation carries a Grade A/B/C evidence rating backed by primary PubMed sources. No guesswork. No influencer nutrition. Science, cited and verifiable.</p>
+              <p class="hc-ft">Grade A/B/C Evidence</p>
+              <p class="hc-fd">Every recommendation is backed by PubMed-sourced RCTs or cohort studies. Grade labelled. Source cited. No influencer nutrition.</p>
             </div>
           </div>
-          <div class="intel-feature fade-up" data-delay="6">
-            <div class="intel-icon">◈</div>
+          <div class="hc-f fade-up" data-delay="6">
+            <div class="hc-icon">◈</div>
             <div>
-              <p class="intel-feature-title">Your Data Stays Yours</p>
-              <p class="intel-feature-desc">All processing runs on your own device or private cloud. No third-party data sharing. No algorithmic retention loop. Complete discretion guaranteed.</p>
+              <p class="hc-ft">Your Data Stays Yours</p>
+              <p class="hc-fd">Runs on your own device or private cloud. No third-party sharing. Complete discretion. GDPR-aligned.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Right: live panels -->
-      <div>
-        <div class="intel-badge fade-up">Live System · Deployed</div>
+      <!-- Right: Telegram phone mockup -->
+      <div class="fade-in" data-delay="2">
+        <div class="tg-phone">
 
-        <div class="intel-panel" data-delay="1">
-          <div class="intel-panel-header">
-            <div class="intel-dot"></div>
-            <span class="intel-panel-title">Daily Morning Briefing — 09:00</span>
-          </div>
-          <div class="intel-rows">
-            <div class="intel-row">
-              <span class="intel-row-label">HRV Score</span>
-              <span class="intel-row-value">72 ms · +8% vs 30-day baseline</span>
-            </div>
-            <div class="intel-row">
-              <span class="intel-row-label">Ferritin (blood)</span>
-              <span class="intel-row-value">38 µg/L · below optimal range</span>
-            </div>
-            <div class="intel-row">
-              <span class="intel-row-label">TMPRSS6 gene</span>
-              <span class="intel-row-value">rs855791 → reduced iron absorption</span>
-            </div>
-            <div class="intel-row">
-              <span class="intel-row-label">Recommendation</span>
-              <span class="intel-row-value">Iron + Vitamin C · fasting, morning</span>
-            </div>
-            <div class="intel-row">
-              <span class="intel-row-label">Evidence Grade</span>
-              <span><span class="intel-grade">● Grade A · RCT-backed</span></span>
-            </div>
-            <div class="intel-row">
-              <span class="intel-row-label">Peak training window</span>
-              <span class="intel-row-value">06:30 – 08:30 today</span>
+          <!-- Header -->
+          <div class="tg-header">
+            <span class="tg-back">‹ 4840</span>
+            <div class="tg-avatar">H</div>
+            <div class="tg-info">
+              <span class="tg-name">HealthBK</span>
+              <span class="tg-status">bot</span>
             </div>
           </div>
+
+          <!-- Chat body -->
+          <div class="tg-body">
+            <div class="tg-bubble">
+              <div class="tg-bubble-header">
+                🏥 Health Briefing · 2026-03-27<br/>
+                🎯 Биовозраст: ~52 лет (+1 к хронологическому)
+              </div>
+
+              <p class="tg-line">
+                <strong>🌅 Доброе утро, Борис</strong> ⌚ Вчера —
+                <span class="warn">HRV 29.3 мс — ниже нормы</span>, восстановление
+                неполное. <span class="hi">ЧСС покоя 59 — хорошо.</span>
+                <span class="hi">VO2max вырос до 35.5 — позитивная динамика,</span>
+                тренировка 51 мин засчитана.
+              </p>
+
+              <p class="tg-line sep">
+                ⛅ Сегодня — дождь, 9°C, на улице некомфортно.<br/>
+                Лучшее окно для тренировки — <strong>с 9:00 до 11:00 в зале:</strong>
+                HRV низкий, значит высокоинтенсивная нагрузка нежелательна —
+                оптимально <span class="hi">Zone 2 на велотренажёре или эллипсе.</span>
+              </p>
+
+              <p class="tg-line sep">
+                🧠 Рекомендация — Туман с утра плюс низкий HRV указывают на
+                недовосстановление, вероятно связанное с анемией
+                (<span class="warn">Hb 13.4, Ferritin 20</span>).
+                Сегодня не форсируй тренировку — умеренный темп,
+                <strong>пульс 110–130.</strong>
+                Глубокую работу — после 18:00, как обычно.
+              </p>
+
+              <p class="tg-line sep">
+                💊 Протокол — Железо принял ✓.
+                Добавь к нему <span class="gold">Витамин С (~500 мг)</span> во
+                время приёма — улучшает усвоение негемового железа,
+                критично при <span class="warn">Ferritin 20.</span>
+              </p>
+
+              <div class="tg-meta">
+                <span class="tg-time">16:06</span>
+                <span class="tg-check">✓✓</span>
+              </div>
+            </div>
+          </div>
+
         </div>
-
-        <div class="intel-panel" data-delay="2">
-          <div class="intel-panel-header">
-            <div class="intel-dot green"></div>
-            <span class="intel-panel-title">Weekly Correlation Engine</span>
-          </div>
-          <div class="intel-rows">
-            <div class="intel-row">
-              <span class="intel-row-label">Patterns detected</span>
-              <span class="intel-row-value">5 cross-domain signals</span>
-            </div>
-            <div class="intel-row">
-              <span class="intel-row-label">Key finding</span>
-              <span class="intel-row-value">Quality nutrition → +12% HRV next day</span>
-            </div>
-            <div class="intel-row">
-              <span class="intel-row-label">Data sources</span>
-              <span class="intel-row-value">Oura · Blood labs · Food log · Journal</span>
-            </div>
-            <div class="intel-row">
-              <span class="intel-row-label">Research queued</span>
-              <span class="intel-row-value">3 PubMed studies</span>
-            </div>
-          </div>
-        </div>
-
-        <p class="intel-panel-note fade-up" data-delay="7">
-          ⚠ Not medical advice. All genetic flags carry Grade + source citations. Reviewed with practitioner before any action is taken.
+        <p style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(196,164,107,0.35);text-align:center;margin-top:14px;">
+          Real briefing · data replaced for privacy · delivered daily at 09:00
         </p>
       </div>
 
@@ -338,59 +325,54 @@
   </div>
 </section>
 
-<!-- ============================================================
-     PROGRAMME — 10-Week Engagement
-     ============================================================ -->
-<section class="programme section-pad" id="programme" aria-label="The Programme">
-  <div class="container">
-    <div class="programme-inner">
+<!-- ════════════════════════════════════════
+     PROGRAMME
+     ════════════════════════════════════════ -->
+<section class="prog sec" id="programme">
+  <div class="wrap">
+    <div class="prog-inner">
 
-      <!-- Left: sticky overview -->
-      <div class="programme-sticky">
-        <p class="label fade-up">The Engagement</p>
-        <div class="gold-rule"></div>
-        <h2 class="heading-xl fade-up" data-delay="1">
-          Ten weeks.<br /><em>Permanent</em><br />results.
+      <div class="prog-left">
+        <p class="eyebrow fade-up">The Engagement</p>
+        <div class="g-rule"></div>
+        <h2 class="h2 fade-up" data-delay="1" style="color:var(--white)">
+          Ten weeks.<br/><em>Permanent<br/>results.</em>
         </h2>
-        <p class="body-md fade-up" data-delay="2">
+        <p class="body-text fade-up" data-delay="2" style="margin-top:20px;max-width:340px">
           This is not a course. It is a private engagement — structured, intensive, and deeply personal. I work with no more than 40 clients globally at any given time. Every client receives my direct attention at every session.
         </p>
-
-        <div class="programme-stats">
-          <div class="programme-stat">
-            <div class="stat-num">10</div>
-            <div class="stat-label">Week Private Engagement</div>
+        <div class="prog-stats">
+          <div class="prog-stat">
+            <div class="stat-n">10</div>
+            <div class="stat-l">Week Private Engagement</div>
           </div>
-          <div class="programme-stat">
-            <div class="stat-num">20</div>
-            <div class="stat-label">Curated Sessions Per Month</div>
+          <div class="prog-stat">
+            <div class="stat-n">20</div>
+            <div class="stat-l">Curated Sessions per Month</div>
           </div>
-          <div class="programme-stat">
-            <div class="stat-num">3</div>
-            <div class="stat-label">Disciplines Integrated</div>
+          <div class="prog-stat">
+            <div class="stat-n">3</div>
+            <div class="stat-l">Disciplines Integrated</div>
           </div>
         </div>
       </div>
 
-      <!-- Right: phases -->
-      <div class="programme-phases" role="list">
-
-        <div class="phase" role="listitem">
+      <div class="phases">
+        <div class="phase">
           <div class="phase-head">
-            <span class="phase-weeks">Week 01–02</span>
+            <span class="phase-wk">Week 01–02</span>
             <div>
               <h3 class="phase-title">Deep Assessment</h3>
               <p class="phase-sub">The Foundation</p>
             </div>
           </div>
           <p class="phase-desc">
-            Full blood panel analysis. Genetic test review. Food psychology exploration. We identify not just what your body needs — but why you eat the way you eat, and what must change at a neurological level before anything else can shift.
+            Full blood panel analysis. Genetic test review. Food psychology exploration. We identify not just what your body needs — but why you eat the way you eat, and what must change neurologically before anything else can shift.
           </p>
         </div>
-
-        <div class="phase" role="listitem">
+        <div class="phase">
           <div class="phase-head">
-            <span class="phase-weeks">Week 03–05</span>
+            <span class="phase-wk">Week 03–05</span>
             <div>
               <h3 class="phase-title">Reconstruction</h3>
               <p class="phase-sub">The Architecture</p>
@@ -400,10 +382,9 @@
             Your nutritional protocol and training plan are deployed. Eating patterns are rebuilt from the ground up. AI daily briefings begin — every morning you know exactly what your body needs and why, backed by your own data.
           </p>
         </div>
-
-        <div class="phase" role="listitem">
+        <div class="phase">
           <div class="phase-head">
-            <span class="phase-weeks">Week 06–08</span>
+            <span class="phase-wk">Week 06–08</span>
             <div>
               <h3 class="phase-title">Optimisation</h3>
               <p class="phase-sub">The Refinement</p>
@@ -413,146 +394,124 @@
             The body is adapting. We refine load, nutrition timing, and supplementation based on live data — HRV trends, sleep quality, lab results. The psychological work deepens as physical transformation accelerates.
           </p>
         </div>
-
-        <div class="phase" role="listitem">
+        <div class="phase">
           <div class="phase-head">
-            <span class="phase-weeks">Week 09–10</span>
+            <span class="phase-wk">Week 09–10</span>
             <div>
               <h3 class="phase-title">Integration</h3>
               <p class="phase-sub">The Handover</p>
             </div>
           </div>
           <p class="phase-desc">
-            We consolidate what you have built and encode it as your new normal. You leave with the knowledge, the protocols, and the psychological architecture to sustain your results — permanently and without dependence on any coach.
+            We consolidate what you have built and encode it as your new normal. You leave with the knowledge, the protocols, and the psychological architecture to sustain your results — permanently and independently.
           </p>
         </div>
-
       </div>
+
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     EVIDENCE — Testimonials
-     ============================================================ -->
-<section class="evidence section-pad" id="evidence" aria-label="Client testimonials">
-  <div class="container">
+<!-- ════════════════════════════════════════
+     EVIDENCE
+     ════════════════════════════════════════ -->
+<section class="evidence sec" id="evidence">
+  <div class="wrap">
 
-    <div class="evidence-header">
-      <p class="label fade-up">Client Evidence</p>
-      <h2 class="heading-xl fade-up" data-delay="1">Results that <em>last.</em></h2>
-      <div class="gold-rule" style="transform-origin: center center;"></div>
+    <div class="ev-hdr">
+      <p class="eyebrow fade-up">Client Evidence</p>
+      <h2 class="h2 fade-up" data-delay="1" style="color:var(--white);display:inline-block">
+        Results that <span style="color:var(--gold)">last.</span>
+      </h2>
+      <div class="g-rule" style="transform-origin:center"></div>
     </div>
 
-    <div class="testimonials" role="list">
-
-      <article class="testimonial" role="listitem">
-        <p class="testimonial-text">
-          "After three failed programmes with other coaches, Eugene identified the reason they had all failed. It was psychological, not physical. In ten weeks I changed my body and — more importantly — my relationship with food, entirely."
-        </p>
-        <div class="testimonial-meta">
-          <p class="testimonial-role">Chief Executive Officer</p>
-          <p class="testimonial-city">Dubai, UAE</p>
+    <div class="testimonials">
+      <article class="testi">
+        <p class="testi-txt">"After three failed programmes, Eugene identified the reason they had all failed. It was psychological, not physical. In ten weeks I changed my body and — more importantly — my relationship with food, entirely."</p>
+        <div class="testi-meta">
+          <p class="testi-role">Chief Executive Officer</p>
+          <p class="testi-city">Dubai, UAE</p>
         </div>
       </article>
-
-      <article class="testimonial" role="listitem">
-        <p class="testimonial-text">
-          "I have worked with trainers in London, New York, and Singapore. None of them combined neuropsychology and precision nutrition science the way Eugene does. The blood panel analysis alone was worth more than a full year of previous coaching."
-        </p>
-        <div class="testimonial-meta">
-          <p class="testimonial-role">Managing Partner, Private Equity</p>
-          <p class="testimonial-city">London, UK</p>
+      <article class="testi">
+        <p class="testi-txt">"I have worked with trainers in London, New York, and Singapore. None combined neuropsychology and precision nutrition science the way Eugene does. The blood panel analysis alone was worth a full year of previous coaching."</p>
+        <div class="testi-meta">
+          <p class="testi-role">Managing Partner, Private Equity</p>
+          <p class="testi-city">London, UK</p>
         </div>
       </article>
-
-      <article class="testimonial" role="listitem">
-        <p class="testimonial-text">
-          "I travel constantly between Almaty and London. Eugene built a programme that works through time zones, business travel, and executive stress — and it works. I am in the best shape of my adult life, at 47."
-        </p>
-        <div class="testimonial-meta">
-          <p class="testimonial-role">Founder, Technology Group</p>
-          <p class="testimonial-city">Almaty · London</p>
+      <article class="testi">
+        <p class="testi-txt">"I travel constantly between Almaty and London. Eugene built a programme that works through time zones, business travel, and stress — and it works. I am in the best shape of my adult life, at 47."</p>
+        <div class="testi-meta">
+          <p class="testi-role">Founder, Technology Group</p>
+          <p class="testi-city">Almaty · London</p>
         </div>
       </article>
-
     </div>
 
-    <div class="media-row" aria-label="Media mentions">
-      <span class="media-name">Vogue</span>
-      <span class="media-name">The Times</span>
-      <span class="media-name">Forbes</span>
-      <span class="media-name">Tatler</span>
-      <span class="media-name">Harper's Bazaar</span>
+    <div class="media-row">
+      <span class="media-n">Vogue</span>
+      <span class="media-n">The Times</span>
+      <span class="media-n">Forbes</span>
+      <span class="media-n">Tatler</span>
+      <span class="media-n">Harper's Bazaar</span>
     </div>
 
   </div>
 </section>
 
-<!-- ============================================================
-     GATE — Application
-     ============================================================ -->
-<section class="gate section-pad" id="gate" aria-label="Apply for a place">
-  <div class="gate-bg" aria-hidden="true"></div>
-  <div class="gate-overlay" aria-hidden="true"></div>
-
-  <div class="container">
+<!-- ════════════════════════════════════════
+     GATE
+     ════════════════════════════════════════ -->
+<section class="gate sec" id="gate">
+  <div class="gate-bg"></div>
+  <div class="gate-over"></div>
+  <div class="wrap">
     <div class="gate-inner">
-      <span class="label fade-up">Private Application</span>
-      <h2 class="heading-xl fade-up" data-delay="1">
-        This programme is not<br />for <em>everyone.</em>
+      <span class="eyebrow fade-up">Private Application</span>
+      <h2 class="h2 fade-up" data-delay="1" style="margin-bottom:var(--sp3)">
+        This programme is not<br/>for <em>everyone.</em>
       </h2>
       <p class="gate-copy fade-up" data-delay="2">
-        I work with a maximum of 40 clients at any given time, across London, Dubai, Moscow, and Kuala Lumpur. Every enquiry is reviewed personally. I accept only those for whom I am confident the engagement will produce lasting results.
+        I work with a maximum of 40 clients at any given time — across London, Dubai, Moscow, and Kuala Lumpur. Every enquiry is reviewed personally. I accept only those for whom I am confident the engagement will produce lasting results.
       </p>
       <p class="gate-terms fade-up" data-delay="3">
-        All applications are strictly confidential. · Programme investment discussed upon consultation. · Currently accepting enquiries for Q3 2026.
+        All applications are strictly confidential · Programme investment discussed upon consultation · Currently accepting enquiries for Q3 2026
       </p>
-      <div class="gate-actions fade-up" data-delay="4">
+      <div class="gate-acts fade-up" data-delay="4">
         <a
           href="https://wa.me/971509407457?text=Hello%20Eugene%2C%20I%20would%20like%20to%20enquire%20about%20a%20private%20consultation."
           class="btn-gate"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Request a Private Consultation
-        </a>
+          target="_blank" rel="noopener noreferrer"
+        >Request a Private Consultation</a>
         <p class="gate-note">Via WhatsApp · Response within 24 hours</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============================================================
-     FOOTER
-     ============================================================ -->
-<footer class="footer" role="contentinfo">
-  <div class="footer-logo">Eugene <span>Hantsel</span></div>
-  <nav class="footer-links" aria-label="Footer navigation">
-    <a href="#philosophy">Philosophy</a>
+<!-- FOOTER -->
+<footer>
+  <div class="f-logo">Eugene <span>Hantsel</span></div>
+  <nav class="f-links">
+    <a href="#about">Philosophy</a>
     <a href="#method">Method</a>
-    <a href="#intelligence">AI Layer</a>
+    <a href="#intelligence">Health AI</a>
     <a href="#gate">Apply</a>
   </nav>
-  <div class="footer-right">
+  <div class="f-right">
     <p>+971 50 940 7457</p>
     <p>London · Dubai · Global</p>
   </div>
 </footer>
 
 <!-- Mobile sticky CTA -->
-<div class="mobile-cta" aria-label="Mobile call to action">
-  <a
-    href="https://wa.me/971509407457?text=Hello%20Eugene%2C%20I%20would%20like%20to%20enquire%20about%20a%20private%20consultation."
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Request a Consultation
-  </a>
+<div class="mob-cta">
+  <a href="https://wa.me/971509407457?text=Hello%20Eugene%2C%20I%20would%20like%20to%20enquire%20about%20a%20private%20consultation."
+     target="_blank" rel="noopener noreferrer">Request a Consultation</a>
 </div>
 
-<!-- Scripts -->
 <script src="js/main.js" defer></script>
-
 </body>
 </html>
