@@ -381,8 +381,8 @@ ul  { list-style: none; }
 }
 .vis-break img {
   width: 100%; height: 100%;
-  object-fit: cover; object-position: center 45%;
-  filter: brightness(0.60) contrast(1.10) saturate(0.78);
+  object-fit: cover; object-position: center 40%;
+  filter: brightness(0.55) contrast(1.08) saturate(0.82);
   transition: transform 18s ease;
 }
 .vis-break:hover img { transform: scale(1.03); }
@@ -416,8 +416,8 @@ ul  { list-style: none; }
 }
 .vis-break-2 img {
   width: 100%; height: 100%;
-  object-fit: cover; object-position: center 55%;
-  filter: brightness(0.55) contrast(1.12) saturate(0.72);
+  object-fit: cover; object-position: center 30%;
+  filter: brightness(0.50) contrast(1.10) saturate(0.65);
 }
 .vis-break-2-over {
   position: absolute; inset: 0;
